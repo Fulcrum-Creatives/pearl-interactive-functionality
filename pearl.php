@@ -103,8 +103,10 @@ if( !class_exists( 'Pearl' ) ) {
 		 */
 		private function includes() {
 			$includes_path = plugin_dir_path( __FILE__ ) . 'includes/';
+			require_once PEARL_PLUGIN_DIR . 'admin/class-pearl-rename-post.php';
 			require_once PEARL_PLUGIN_DIR . 'admin/class-pearl-add-menu-items.php';
 			require_once PEARL_PLUGIN_DIR . 'admin/class-pearl-admin-init.php';
+
 			require_once PEARL_PLUGIN_DIR . 'includes/class-pearl-register-post-type.php';
 			require_once PEARL_PLUGIN_DIR . 'includes/class-pearl-register-taxonomies.php';
 			require_once PEARL_PLUGIN_DIR . 'includes/class-pearl-init.php';

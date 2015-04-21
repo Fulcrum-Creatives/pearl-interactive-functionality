@@ -17,6 +17,7 @@ class Pearl_Admin_Init {
 	 */
 	public function __construct() {
 		$this->add_theme_settings();
+		$new_rename = new Pearl_Rename_Post('News');
 	}
 
 	/**
