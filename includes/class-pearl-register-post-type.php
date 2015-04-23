@@ -3,7 +3,7 @@
  * Register custom post type
  *
  * @link       http://fulcrumcreatives.com
- * @since      1.0.0
+ * @since      0.0.1
  *
  * @package    Pearl
  * @subpackage Pearl/public
